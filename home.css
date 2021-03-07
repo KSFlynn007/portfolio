@@ -1,0 +1,57 @@
+/* font-family: 'Playfair Display', serif; */
+
+.profileImg {
+  width: 25%;
+}
+
+.contact {
+  text-align: center;
+}
+
+.my-address_name,
+.my-address_street,
+.my-address_city,
+.my-address_country,
+.contact-me_phone,
+.contact-me_skype,
+.contact-me_email,
+.contact-me_link {
+  display: block;
+}
+
+.my-address_country {
+  margin-bottom: 15px;
+}
+
+.contact-me_link {
+  margin: 40px 0px;
+}
+
+.form-container {
+  padding: 15px 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.form-name,
+.form-email,
+.form-message {
+  display: block;
+  margin: 15px;
+}
+
+.submit-button {
+  display: block;
+  margin: 30px auto 15px auto;
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+#your-name,
+#contact-email,
+#contact-message {
+  padding: 5px 10px;
+}
