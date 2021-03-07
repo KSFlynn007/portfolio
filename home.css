@@ -1,6 +1,20 @@
 /* font-family: 'Playfair Display', serif; */
+/* font-family: 'Lato', sans-serif;*/
 body {
   margin: 70px 30px 0px 30px;
+  font-family: "Lato", sans-serif;
+}
+
+.about-title,
+.projects-title {
+  font-family: "Playfair", serif;
+  font-size: 40px;
+}
+
+/* nav */
+.navbar-brand {
+  font-family: "Playfair", serif;
+  font-size: 30px;
 }
 
 /* home */
@@ -13,10 +27,18 @@ body {
   width: 30%;
 }
 
+.cv-button {
+  font-family: "Playfair", serif;
+}
+
 /* projects */
 #projects {
   background-color: burlywood;
   padding: 20px;
+}
+
+.portfolioItem-title {
+  font-family: "Playfair", serif;
 }
 
 .project-container {
@@ -55,45 +77,26 @@ body {
   text-align: center;
 }
 
-.my-address_name,
-.my-address_street,
-.my-address_city,
-.my-address_country,
 .contact-me_phone,
-.contact-me_skype,
-.contact-me_email,
-.contact-me_link {
+.contact-me_email {
   display: block;
-}
-
-.my-address_country {
-  margin-bottom: 15px;
-}
-
-.contact-me_link {
-  margin: 20px 0px;
-}
-
-.form-name,
-.form-email,
-.form-message {
-  margin: 15px;
 }
 
 .sources {
   text-align: end;
   padding: 20px;
-  opacity: 50%;
+  opacity: 60%;
+  font-size: 10px;
 }
 
 @media all and (max-width: 580px) {
-  .modal-img {
+  .modalImg {
     height: 400px;
   }
 }
 
 @media all and (max-width: 440px) {
-  .modal-img {
+  .modalImg {
     height: 300px;
   }
 }

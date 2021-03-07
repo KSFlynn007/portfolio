@@ -13,6 +13,8 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="/home.css">
@@ -34,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="home-page" href="#projects">Just want to skip to my work?</a>
+                        <a class="nav-link" aria-current="home-page" href="#projects">Just want to skip to my portfolio?</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="home-page" href="#contact">Connect</a>
@@ -58,11 +60,10 @@
 
     <div id="about">
         <img src="assets/img/kelsey_selfie_square.jpg" alt="kelseyFlynn-portrait" class="profileImg mx-auto d-block" />
-        <h1>Hello all!</h1>
+        <h1 class="about-title">Hello all!</h1>
         <p>
             My name is Kelsey Flynn, I'm a web developer from Alberta, Canada. I continuously seek to be a "Jack-of-all-trades",
-            pulling bits of expertise from other fields, always searching for a new skill to add to my repository of
-            knowledge.
+            pulling bits of expertise from other fields, always searching for a new skill to learn.
         </p>
         <p>
             <span class="bio">With a Bachelor's degree in Linguistics & Business, I've used it to teach remedial education in
@@ -82,10 +83,10 @@
 
 <!-- projects -->
     <div id="projects">
-        <h1>Previous Projects</h1>
+        <h1 class="projects-title">Previous Projects</h1>
         <div class="row project-container">
             <div class="col-sm">
-                <h2>Portfolio</h2>
+                <h2 class="portfolioItem-title">Portfolio</h2>
                 <a id="project-link1" href="https://github.com/KSFlynn007/portfolio" target="_blank">See my project on Github!</a>
             </div>
             <div class="col-sm">
@@ -94,7 +95,7 @@
         </div>
         <div class="row project-container">
             <div class="col-sm">
-                <h2>Creature Hub</h2>
+                <h2 class="portfolioItem-title">Creature Hub</h2>
                 <a id="project-link3" href="https://github.com/KSFlynn007/creature-hub" target="_blank">See my project
                     on Github!</a>
                 <!-- Button trigger modal -->
@@ -124,7 +125,7 @@
         </div>
         <div class="row project-container">
             <div class="col-sm">
-                <h2>To-Do List App</h2>
+                <h2 class="portfolioItem-title">To-Do List App</h2>
                 <a id="project-link4" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">See my
                     project on Github!</a>
                 <!-- Button trigger modal -->
@@ -153,7 +154,7 @@
         </div>
         <div class="row project-container">
             <div class="col-sm">
-                <h2>myFlix DB</h2>
+                <h2 class="portfolioItem-title">myFlix DB</h2>
                 <a id="project-link5" href="https://github.com/KSFlynn007/movie_api" target="_blank">See my project on
                     Github!</a>
                 <!-- Button trigger modal -->
@@ -185,7 +186,7 @@
         </div>
         <div class="row project-container">
             <div class="col-sm">
-                <h2>myFlix</h2>
+                <h2 class="portfolioItem-title">myFlix</h2>
                 <a id="project-link6" href="https://github.com/KSFlynn007/myFlix-client" target="_blank">See my project on
                     Github!</a>
                 <!-- Button trigger modal -->
@@ -224,7 +225,7 @@
         </div>
         <div class="row project-container">
             <div class="col-sm">
-                <h2>Code Club</h2>
+                <h2 class="portfolioItem-title">Code Club</h2>
                 <a id="project-link7" href="https://github.com/KSFlynn007/meet-app" target="_blank">See my project on
                     Github!</a>
                 <!-- Button trigger modal -->
@@ -258,7 +259,7 @@
         </div>
         <div class="row project-container">
             <div class="col-sm">
-                <h2>Nurses 💖 Deliveries</h2>
+                <h2 class="portfolioItem-title">Nurses 💖 Deliveries</h2>
                 <a id="project-link2" href="https://github.com/KSFlynn007/First-Project" target="_blank">See my
                     project on Github!</a>
             </div>
@@ -274,35 +275,11 @@
 
 <!-- contact -->
 <div id="contact">
-            <h1>Contact</h1>
-            <p>
-                <span class="my-address_name">Kelsey Flynn</span>
-                <span class="my-address_street">117 Haverhill Road</span>
-                <span class="my-address_city">Calgary, AB</span>
-                <span class="my-address_country">Canada</span>
-            
-                <span class="contact-me_phone"><a href="tel:+1403-808-2573" aria-label="Call/text me at:">+1. 403. 808. 2573.</a></span>
-                <span class="contact-me_email"><a href="mailto:kelseyflynn@gmail.com">kelseyflynnn@gmail.com</a></span>
-            
-                <span class="contact-me_link"><a href="mailto:kelseyflynnn@gmail.com">Contact me!</a></span>
-            </p>
-    <form class="contact-form">
-        <div class="mb-3">
-            <label for="your-name" class="form-name">Your Name:</label>
-            <input type="text" class="form-control" placeholder="Your Name?">
-        </div>
-        <div class="mb-3">
-            <label for="contact-email" class="form-email">Password</label>
-            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your Email?">
-            <div id="emailHelp" class="form-text">Your email won't be shared with anyone.</div>
-        </div>
-        <div class="mb-3">
-            <label for="contact-message" class="form-message">Message:</label>
-            <input type="text" class="form-control" placeholder="Ex; Where were you between the hours of ... wait, that's not right.">
-        </div>
-
-        <button type="submit" class="btn btn-primary submit-button">Send it!</button>
-    </form>
+            <h1>Contact Me:</h1>
+            <p> I can be reached via email or phone/text, I respond within 24-48 hours. Or, you can connect with me on LinkedIn or Github, the links are at the top of 
+                your page!</p>
+            <span class="contact-me_email"><a href="mailto:kelseyflynn@gmail.com">kelseyflynnn@gmail.com</a></span>
+            <span class="contact-me_phone"><a href="tel:+1403-808-2573" aria-label="Call/text me at:">+1. 403. 808. 2573.</a></span>
     </div>
 
 <!-- footer -->
