@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand d-inline-block align-top" href="home.html">
                 <img src="assets/img/racoon_favicon.svg" alt='racoon-logo' width="30" height="24"
@@ -34,7 +34,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="home-page" href="projects.html">Just want to skip to my work?</a>
+                        <a class="nav-link" aria-current="home-page" href="#projects-container">Just want to skip to my work?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="home-page" href="#contact">Connect with me!</a>
                     </li>
                 </ul>
                 <!-- quick connect navbar -->
@@ -50,7 +53,10 @@
         </div>
     </nav>
 
-    <div class="home">
+    <div id="home" class="jumbotron">
+    </div>
+
+    <div id="about">
         <img src="assets/img/kelsey_selfie_square.jpg" alt="kelseyFlynn-portrait" class="profileImg mx-auto d-block" />
         <h1>Hello all!</h1>
         <p>
@@ -76,84 +82,175 @@
 
 <!-- projects -->
 <!-- include modals to see "preview of project/img" -->
-    <div class="projects-container">
+    <div id="projects">
         <h1>Previous Projects</h1>
-        <div class="row">
-            <div class="col-md">
-                <h2>Portfolio (You are here)</h2>
-                <a id="project-link1" href="https://github.com/KSFlynn007/portfolio-website" target="_blank">See my
-                    project on Github!</a>
+        <div class="row project-container">
+            <div class="col-sm">
+                <h2>Portfolio</h2>
+                <a id="project-link1" href="https://github.com/KSFlynn007/portfolio-website" target="_blank">See my project on Github!</a>
             </div>
-            <div class="col-md">
+            <div class="col-sm">
                 <p>I was responsible for front-end dev. It's written in HTML, CSS with CSS functions.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <h2>Nurses 💖 Deliveries</h2>
-                <a id="project-link2" href="https://github.com/KSFlynn007/First-Project" target="_blank">See my
-                    project on Github!</a>
-            </div>
-            <div class="col-md">
-                <p>My first coding work, a mock up of a donation-based delivery service for healthcare workers.
-                    It's written in HTML, and simple CSS & Javascript tags within.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md">
+        <div class="row project-container">
+            <div class="col-sm">
                 <h2>Creature Hub</h2>
                 <a id="project-link3" href="https://github.com/KSFlynn007/creature-hub" target="_blank">See my project
                     on Github!</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Preview
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Creature Hub</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/creatureHub-1.png" class="modal-img" alt="modalPreview-img"/>
+                                <img src="assets/img/creatureHub-2.png" class="modal-img" alt="modalPreview-img"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md">
+            <div class="col-sm">
                 <p>First foray into JavaScript and back-end development, a simple app that fetches from an API to
                     display a collection.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md">
+        <div class="row project-container">
+            <div class="col-sm">
                 <h2>To-Do List App</h2>
                 <a id="project-link4" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">See my
                     project on Github!</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Preview
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">To-Do List App</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="" class="modal-img" alt="modalPreview-img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md">
+            <div class="col-sm">
                 <p>jQuery mini-project, used to display knowledge in JavaScript libraries.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md">
+        <div class="row project-container">
+            <div class="col-sm">
                 <h2>myFlix DB</h2>
                 <a id="project-link5" href="https://github.com/KSFlynn007/movie_api" target="_blank">See my project on
                     Github!</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Preview
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">myFlix DB</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/myFlix-DB.png" class="modal-img" alt="modalPreview-img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md">
+            <div class="col-sm">
                 <p>Server-Side no-SQL databse created with Node.js & Express that performs CRUD on movies and user data
                     through various endpoints.
                     Security measures such as authorization, JWT authentication and password hashing used. Hosted on Heroku.
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md">
+        <div class="row project-container">
+            <div class="col-sm">
                 <h2>myFlix</h2>
                 <a id="project-link6" href="https://github.com/KSFlynn007/myFlix-client" target="_blank">See my project on
                     Github!</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Preview
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">myFlix</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/myFlix.png"modal-img" alt="modalPreview-img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary">
+                    <a href="assets/files/myFlix-caseStudy.pdf" class="caseStudy" target="_blank">
+                    Case Study
+                    </a>
+                </button>
+
             </div>
-            <div class="col-md">
+            <div class="col-sm">
                 <p>Client-side application for myFlixDB, created with React & Redux with both class and functional
                     components. Styling done
                     with React Bootstrap and hosted on Netlify.
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md">
+        <div class="row project-container">
+            <div class="col-sm">
                 <h2>Code Club</h2>
                 <a id="project-link7" href="https://github.com/KSFlynn007/meet-app" target="_blank">See my project on
                     Github!</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Preview
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Code Club</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/CodeClub.png" class="modal-img" alt="modalPreview-img" />
+                                <img src="assets/img/PWA.JPG" class="modal-img" alt="modalPreview-img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md">
+            <div class="col-sm">
                 <p>A Progressive Web Application, developed with TDD, built with React, run on AWS Lambda (serverless). Uses
                     Google Calendar API and OAuth2 authentication
                     flow to fetch upcominge events in a example event calendar. Code Club has alerts created with the OOP
@@ -161,10 +258,43 @@
                 </p>
             </div>
         </div>
+        <div class="row project-container">
+            <div class="col-sm">
+                <h2>Nurses 💖 Deliveries</h2>
+                <a id="project-link2" href="https://github.com/KSFlynn007/First-Project" target="_blank">See my
+                    project on Github!</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Preview
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Nurses 💖 Deliveries</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/creatureHub-1.png" class="modal-img" alt="modalPreview-img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <p>My first coding work, a mock up of a donation-based delivery service for healthcare workers.
+                    It's written in HTML, and inline CSS & Javascript. A nostalgia piece, which I keep to show my growth, like 
+                    having macaroni art on the fridge.
+                </p>
+            </div>
+        </div>
+    </div>
 
 
 <!-- contact -->
-<div class="contact">
+<div id="contact">
             <h1>Contact</h1>
             <p>
                 <span class="my-address_name">Kelsey Flynn</span>
@@ -199,7 +329,7 @@
 <!-- footer -->
     <footer class="page-footer">
         <div class="sources">
-            <p>Logo made with LogoMkr.com</p>
+            <p>Logo from ...</p>
         </div>
     </footer>
 

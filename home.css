@@ -1,11 +1,53 @@
 /* font-family: 'Playfair Display', serif; */
+body {
+  margin: 70px 30px 0px 30px;
+}
+
+/* home */
+#about {
+  background-color: rgb(152, 184, 116);
+  padding: 20px;
+}
 
 .profileImg {
-  width: 35%;
+  width: 30%;
+}
+
+/* projects */
+#projects {
+  background-color: burlywood;
+  padding: 20px;
+}
+
+.project-container {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.modal-body {
+  margin: 0 auto;
+}
+
+.modal-img {
+  height: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.caseStudy {
+  color: white;
+  text-decoration: none;
+}
+
+.caseStudy:hover {
+  color: white;
 }
 
 /* contact */
-.contact {
+#contact {
+  background-color: cornsilk;
+  padding: 20px;
   text-align: center;
 }
 
@@ -32,4 +74,10 @@
 .form-email,
 .form-message {
   margin: 15px;
+}
+
+.sources {
+  text-align: end;
+  padding: 20px;
+  opacity: 50%;
 }
