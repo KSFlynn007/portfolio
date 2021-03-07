@@ -1,8 +1,17 @@
 /* font-family: 'Playfair Display', serif; */
 /* font-family: 'Lato', sans-serif;*/
+
+/* whole app */
 body {
   margin: 70px 30px 0px 30px;
   font-family: "Lato", sans-serif;
+}
+
+#about,
+#contact {
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: center;
 }
 
 .about-title,
@@ -13,32 +22,36 @@ body {
   text-align: center;
 }
 
+.btn {
+  margin: 10px 0px;
+  background: white;
+  color: black;
+  font-family: "Playfair", serif;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
 /* nav */
 .navbar-brand {
   font-family: "Playfair", serif;
   font-size: 30px;
 }
 
-/* home */
+/* about */
 #about {
   background-color: rgb(152, 184, 116);
-  padding: 20px;
-  margin: 20px 0px;
 }
 
 .profileImg {
   width: 30%;
-}
-
-.cv-button {
-  font-family: "Playfair", serif;
+  border-radius: 50%;
 }
 
 /* projects */
 #projects {
-  background-color: burlywood;
   padding: 20px;
   margin: 20px 0px;
+  background-color: burlywood;
 }
 
 .portfolioItem-title {
@@ -51,9 +64,9 @@ body {
   margin: 10px 0px;
 }
 
-.btn {
-  display: block;
-  margin: 10px 0px;
+.project-container:hover {
+  background: white;
+  transition: all 0.3s ease;
 }
 
 .modal-body {
@@ -65,19 +78,9 @@ body {
   height: 500px;
 }
 
-.caseStudy {
-  color: white;
-  text-decoration: none;
-}
-
-.caseStudy:hover {
-  color: white;
-}
-
 /* contact */
 #contact {
   background-color: cornsilk;
-  padding: 20px;
   text-align: center;
 }
 
@@ -103,4 +106,8 @@ body {
   .modalImg {
     height: 300px;
   }
+}
+
+#content {
+  display: none;
 }
