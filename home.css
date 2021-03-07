@@ -6,9 +6,11 @@ body {
 }
 
 .about-title,
-.projects-title {
+.projects-title,
+.contact-title {
   font-family: "Playfair", serif;
   font-size: 40px;
+  text-align: center;
 }
 
 /* nav */
@@ -21,6 +23,7 @@ body {
 #about {
   background-color: rgb(152, 184, 116);
   padding: 20px;
+  margin: 20px 0px;
 }
 
 .profileImg {
@@ -35,6 +38,7 @@ body {
 #projects {
   background-color: burlywood;
   padding: 20px;
+  margin: 20px 0px;
 }
 
 .portfolioItem-title {
