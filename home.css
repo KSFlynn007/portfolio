@@ -1,9 +1,10 @@
 /* font-family: 'Playfair Display', serif; */
 
 .profileImg {
-  width: 25%;
+  width: 35%;
 }
 
+/* contact */
 .contact {
   text-align: center;
 }
@@ -24,34 +25,11 @@
 }
 
 .contact-me_link {
-  margin: 40px 0px;
-}
-
-.form-container {
-  padding: 15px 10px;
-  max-width: 700px;
-  margin: 0 auto;
-  border: 1px solid black;
+  margin: 20px 0px;
 }
 
 .form-name,
 .form-email,
 .form-message {
-  display: block;
   margin: 15px;
-}
-
-.submit-button {
-  display: block;
-  margin: 30px auto 15px auto;
-  border: none;
-  text-decoration: none;
-  padding: 10px;
-  transition: all 0.5s ease;
-}
-
-#your-name,
-#contact-email,
-#contact-message {
-  padding: 5px 10px;
 }
