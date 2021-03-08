@@ -1,13 +1,15 @@
 /* font-family: 'Playfair Display', serif; */
 /* font-family: 'Lato', sans-serif;*/
-/* white: #EDF2F2 */
+/* white: #F5FCFB */
 /* black: #021f1b */
+/* accent: #0A907F */
+/* light: #C8D9D7 */
 
 /* whole app */
 body {
   margin: 70px 30px 0px 30px;
   font-family: "Lato", sans-serif;
-  background-color: #edf2f2;
+  background-color: #f5fcfb;
 }
 
 #about,
@@ -27,8 +29,8 @@ body {
 
 .btn {
   margin: 10px 0px;
-  background: #edf2f2;
-  color: #021f1b;
+  background: #021f1b;
+  color: #f5fcfb;
   font-family: "Playfair", serif;
   font-size: 18px;
   transition: all 0.3s ease;
@@ -36,9 +38,9 @@ body {
 }
 
 .btn:hover {
-  background-color: #021f1b;
+  background-color: #0a907f;
   border: 1px solid #021f1b;
-  color: #edf2f2;
+  color: #f5fcfb;
 }
 
 a {
@@ -54,16 +56,18 @@ a {
 }
 
 .color-nav {
-  background-color: #edf2f2;
+  background-color: #f5fcfb;
 }
 
 /* about */
 #about {
+  background-color: #c8d9d7;
 }
 
 .profileImg {
   width: 30%;
   border-radius: 50%;
+  border: 5px solid #0a907f;
 }
 
 .intro {
@@ -82,7 +86,7 @@ a {
 
 /* projects */
 #projects {
-  margin: 20 0px;
+  margin: 100px 0px;
   text-align: justify;
 }
 
@@ -94,15 +98,21 @@ a {
   border: 1px solid #021f1b;
   padding: 10px;
   margin: 10px 0px;
+  justify-content: center;
 }
 
 .project-container:hover {
   transition: all 0.3s ease;
+  background-color: #c8d9d7;
 }
 
 #project-link {
   font-weight: 700;
   color: #021f1b;
+}
+
+#project-link:hover {
+  color: #0a907f;
 }
 
 .btn-modal {
@@ -118,9 +128,14 @@ a {
   height: 500px;
 }
 
+.caseStudy {
+  margin-left: 10px;
+}
+
 /* contact */
 #contact {
   text-align: center;
+  background-color: #c8d9d7;
 }
 
 .contact-me_phone,
@@ -132,7 +147,7 @@ a {
 
 .contact-me_phone:hover,
 .contact-me_email:hover {
-  color: #021f1b;
+  color: #0a907f;
 }
 
 .sources {
