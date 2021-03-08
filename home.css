@@ -1,10 +1,10 @@
 /* whole app */
 
 :root {
-  --white-color: white;
+  --white-color: #ffffff;
   --black-color: #021f1b;
   --accent-color: #0a907f;
-  --light-color: #c8d9d7;
+  --light-color: #e7fdfa;
   --accent-font: "Playfair Display", serif;
   --base-font: "Lato", sans-serif;
 }
@@ -75,12 +75,12 @@ a {
 
 .intro {
   margin: 0 50px;
+  text-align: justify;
 }
 
 .bio {
   display: block;
   margin-top: 20px;
-  text-align: justify;
 }
 
 .resume-btn {
@@ -90,7 +90,6 @@ a {
 /* projects */
 #projects {
   margin: 100px 0px;
-  text-align: justify;
 }
 
 .portfolioItem-title {
