@@ -1,15 +1,18 @@
-/* font-family: 'Playfair Display', serif; */
-/* font-family: 'Lato', sans-serif;*/
-/* white: #F5FCFB */
-/* black: #021f1b */
-/* accent: #0A907F */
-/* light: #C8D9D7 */
-
 /* whole app */
+
+:root {
+  --white-color: white;
+  --black-color: #021f1b;
+  --accent-color: #0a907f;
+  --light-color: #c8d9d7;
+  --accent-font: "Playfair Display", serif;
+  --base-font: "Lato", sans-serif;
+}
+
 body {
   margin: 70px 30px 0px 30px;
-  font-family: "Lato", sans-serif;
-  background-color: #f5fcfb;
+  font-family: var(--base-font);
+  background-color: var(--white-color);
 }
 
 #about,
@@ -22,52 +25,52 @@ body {
 .about-title,
 .projects-title,
 .contact-title {
-  font-family: "Playfair", serif;
+  font-family: var(--accent-font);
   font-size: 40px;
   text-align: center;
 }
 
 .btn {
   margin: 10px 0px;
-  background: #021f1b;
-  color: #f5fcfb;
-  font-family: "Playfair", serif;
+  background: var(--black-color);
+  color: var(--white-color);
+  font-family: var(--accent-font);
   font-size: 18px;
   transition: all 0.3s ease;
-  border: 1px solid #021f1b;
+  border: 1px solid var(--black-color);
 }
 
 .btn:hover {
-  background-color: #0a907f;
-  border: 1px solid #021f1b;
-  color: #f5fcfb;
+  background-color: var(--accent-color);
+  border: 1px solid var(--black-color);
+  color: var(--white-color);
 }
 
 a {
   text-decoration: none;
-  color: #021f1b;
+  color: var(--black-color);
   padding: 10px 0;
 }
 
 /* nav */
 .navbar-brand {
-  font-family: "Playfair", serif;
+  font-family: var(--accent-font);
   font-size: 30px;
 }
 
 .color-nav {
-  background-color: #f5fcfb;
+  background-color: var(--white-color);
 }
 
 /* about */
 #about {
-  background-color: #c8d9d7;
+  background-color: var(--light-color);
 }
 
 .profileImg {
   width: 30%;
   border-radius: 50%;
-  border: 5px solid #0a907f;
+  border: 5px solid var(--accent-color);
 }
 
 .intro {
@@ -91,11 +94,11 @@ a {
 }
 
 .portfolioItem-title {
-  font-family: "Playfair", serif;
+  font-family: var(--accent-font);
 }
 
 .project-container {
-  border: 1px solid #021f1b;
+  border: 1px solid var(--black-color);
   padding: 10px;
   margin: 10px 0px;
   justify-content: center;
@@ -103,16 +106,16 @@ a {
 
 .project-container:hover {
   transition: all 0.3s ease;
-  background-color: #c8d9d7;
+  background-color: var(--light-color);
 }
 
 #project-link {
   font-weight: 700;
-  color: #021f1b;
+  color: var(--black-color);
 }
 
 #project-link:hover {
-  color: #0a907f;
+  color: var(--accent-color);
 }
 
 .btn-modal {
@@ -135,7 +138,7 @@ a {
 /* contact */
 #contact {
   text-align: center;
-  background-color: #c8d9d7;
+  background-color: var(--light-color);
 }
 
 .contact-me_phone,
@@ -147,7 +150,7 @@ a {
 
 .contact-me_phone:hover,
 .contact-me_email:hover {
-  color: #0a907f;
+  color: var(--accent-color);
 }
 
 .sources {
@@ -166,6 +169,9 @@ a {
 @media all and (max-width: 580px) {
   .modalImg {
     height: 400px;
+  }
+  .profileImg {
+    width: 50%;
   }
 }
 
