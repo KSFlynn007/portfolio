@@ -1,21 +1,40 @@
+:root {
+  --white-color: #ffffff;
+  --black-color: #021f1b;
+  --accent-color: #0a907f;
+  --light-color: #e7fdfa;
+  --accent-font: "Playfair Display", serif;
+  --base-font: "Lato", sans-serif;
+}
+
 body {
-  background-color: #e7fdfa;
+  background-color: var(--light-color);
 }
 
 .color-nav {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .container {
   margin-top: 100px;
 }
 
-.btn-back {
-  margin: 20px;
-  color: black;
-  display: block;
+.btn {
+  margin: 30px 0px;
+  background: var(--accent-color);
+  color: var(--white-color);
+  font-family: var(--accent-font);
+  font-size: 18px;
+  transition: all 0.3s ease;
+  border: 1px solid var(--black-color);
+}
+
+.btn:hover {
+  background-color: var(--black-color);
+  border: 1px solid var(--black-color);
+  color: var(--white-color);
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--accent-font);
 }
