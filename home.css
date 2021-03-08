@@ -100,7 +100,7 @@ a {
   transition: all 0.3s ease;
 }
 
-#project-link:hover {
+#project-link {
   font-weight: 700;
   color: #021f1b;
 }
@@ -127,12 +127,12 @@ a {
 .contact-me_email {
   display: block;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .contact-me_phone:hover,
 .contact-me_email:hover {
   color: #021f1b;
-  font-weight: bold;
 }
 
 .sources {
