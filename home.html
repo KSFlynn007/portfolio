@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="/home.css">
@@ -28,7 +28,7 @@
         </div>
     </div>
     <div class="content"> 
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top color-nav">
             <div class="container-fluid">
                 <a class="navbar-brand d-inline-block align-top" href="home.html">
                     <img src="assets/img/racoon_favicon.svg" alt='racoon-logo' width="30" height="24"
@@ -62,32 +62,23 @@
             </div>
         </nav>
 
-        <!-- <div class="jumbotron home">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-                featured content or information.</p>
-        </div> -->
-
         <div id="about">
                     <img src="assets/img/kelsey_selfie_square.jpg" alt="kelseyFlynn-portrait" class="profileImg mx-auto d-block" />
                     <h1 class="about-title">Hello all!</h1>
-                    <p>
+                    <p class="intro">
                         My name is Kelsey Flynn, I'm a web developer from Alberta, Canada. I continuously seek to be a "Jack-of-all-trades",
                         pulling bits of expertise from other fields, always searching for a new skill to learn.
-                    </p>
-                    <p>
+
                         <span class="bio">With a Bachelor's degree in Linguistics & Business, I've used it to teach remedial education in
                             person at home in Alberta, privately in France
                             and remotely in China. I've also done my tidbit of time in the corporate world, in HR & Compliance working with
-                            provincial and municipal agencies.</span>
-                        <span class="bio">I spend a lot of my free time scavenging through thrift stores for hidden gems, which often draws
-                            a raccoon comparison from friends!</span>
-                        <span class="bio">Thinking outside the norm, working within the system and organizing the chaos in the difference is
+                            provincial and municipal agencies. I spend a lot of my free time scavenging through thrift stores for hidden gems, which often draws
+                            a raccoon comparison from friends! Thinking outside the norm, working within the system and organizing the chaos in the difference is
                             something I've been doing for years, and web development
                             taps right into that.</span>
                     </p>
 
-                    <a href="assets/files/KelseyFlynn-resume.pdf" class="btn btn-primary resume-button" target="_blank" download>Download my
+                    <a href="assets/files/KelseyFlynn-resume.pdf" class="btn btn-light resume-btn" target="_blank" download>Download my
                         Resume</a>
             </div>
 
@@ -98,7 +89,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">Portfolio</h2>
-                    <a id="project-link1" href="https://github.com/KSFlynn007/portfolio" target="_blank">See my project on Github!</a>
+                    <a id="project-link" href="https://github.com/KSFlynn007/portfolio" target="_blank">See my project on Github!</a>
                 </div>
                 <div class="col-sm">
                     <p>I was responsible for front-end dev. It's written in HTML, CSS with CSS functions.</p>
@@ -107,10 +98,10 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">Creature Hub</h2>
-                    <a id="project-link3" href="https://github.com/KSFlynn007/creature-hub" target="_blank">See my project
+                    <a id="project-link" href="https://github.com/KSFlynn007/creature-hub" target="_blank">See my project
                         on Github!</a>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#creatureClub-modal" >
+                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#creatureClub-modal" >
                         Preview
                     </button>
                     
@@ -137,10 +128,10 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">To-Do List App</h2>
-                    <a id="project-link4" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">See my
+                    <a id="project-link" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">See my
                         project on Github!</a>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#toDo-modal">
+                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#toDo-modal">
                         Preview
                     </button>
                     
@@ -167,10 +158,10 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">myFlix DB</h2>
-                    <a id="project-link5" href="https://github.com/KSFlynn007/movie_api" target="_blank">See my project on
+                    <a id="project-link" href="https://github.com/KSFlynn007/movie_api" target="_blank">See my project on
                         Github!</a>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#myFlixDB-modal">
+                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlixDB-modal">
                         Preview
                     </button>
                     
@@ -199,10 +190,10 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">myFlix</h2>
-                    <a id="project-link6" href="https://github.com/KSFlynn007/myFlix-client" target="_blank">See my project on
+                    <a id="project-link" href="https://github.com/KSFlynn007/myFlix-client" target="_blank">See my project on
                         Github!</a>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#myFlix-modal">
+                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlix-modal">
                         Preview
                     </button>
                     
@@ -221,7 +212,7 @@
                         </div>
                     </div>
 
-                    <a href="assets/files/myFlix-caseStudy.pdf" class="btn btn-primary caseStudy" target="_blank">
+                    <a href="assets/files/myFlix-caseStudy.pdf" class="btn btn-light caseStudy" target="_blank">
                         Case Study
                     </a>
 
@@ -236,10 +227,10 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">Code Club</h2>
-                    <a id="project-link7" href="https://github.com/KSFlynn007/meet-app" target="_blank">See my project on
+                    <a id="project-link" href="https://github.com/KSFlynn007/meet-app" target="_blank">See my project on
                         Github!</a>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#codeClub-modal">
+                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#codeClub-modal">
                         Preview
                     </button>
                     
@@ -270,7 +261,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">Nurses 💖 Deliveries</h2>
-                    <a id="project-link2" href="https://github.com/KSFlynn007/First-Project" target="_blank">See my
+                    <a id="project-link" href="https://github.com/KSFlynn007/First-Project" target="_blank">See my
                         project on Github!</a>
                 </div>
                 <div class="col-sm">
@@ -288,8 +279,8 @@
                 <h1 class="contact-title">Contact Me:</h1>
                 <p> I can be reached via email or phone/text, I respond within 24-48 hours. Or, you can connect with me on LinkedIn or Github, the links are at the top of 
                     your page!</p>
-                <span class="contact-me_email"><a href="mailto:kelseyflynn@gmail.com">kelseyflynnn@gmail.com</a></span>
-                <span class="contact-me_phone"><a href="tel:+1403-808-2573" aria-label="Call/text me at:">+1. 403. 808. 2573.</a></span>
+                <a class="contact-me_email" href="mailto:kelseyflynn@gmail.com">kelseyflynnn@gmail.com</a>
+                <a class="contact-me_phone" href="tel:+1403-808-2573" aria-label="Call/text me at:">+1. 403. 808. 2573.</a>
         </div>
 
     <!-- footer -->
