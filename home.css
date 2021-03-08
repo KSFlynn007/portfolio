@@ -142,6 +142,12 @@ a {
   font-size: 10px;
 }
 
+@media all and (max-width: 768px) {
+  .intro {
+    margin: 0px;
+  }
+}
+
 @media all and (max-width: 580px) {
   .modalImg {
     height: 400px;
@@ -151,6 +157,18 @@ a {
 @media all and (max-width: 440px) {
   .modalImg {
     height: 300px;
+  }
+  body {
+    margin: 70px 10px 0px 10px;
+  }
+  .btn-modal {
+    margin-left: 0px;
+  }
+}
+
+@media all and (min-width: 335px) and (max-width: 440px) {
+  .btn-modal {
+    margin-left: 10px;
   }
 }
 
