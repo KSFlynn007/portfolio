@@ -112,14 +112,11 @@ a {
 #project-link {
   font-weight: 700;
   color: var(--black-color);
+  margin-right: 5px;
 }
 
 #project-link:hover {
   color: var(--accent-color);
-}
-
-.btn-modal {
-  margin-left: 10px;
 }
 
 .modal-body {
@@ -129,10 +126,6 @@ a {
 .modalImg {
   display: block;
   height: 500px;
-}
-
-.caseStudy {
-  margin-left: 10px;
 }
 
 /* contact */
@@ -160,12 +153,14 @@ a {
   font-size: 10px;
 }
 
+/* bio text */
 @media all and (max-width: 768px) {
   .intro {
     margin: 0px;
   }
 }
 
+/* images */
 @media all and (max-width: 580px) {
   .modalImg {
     height: 400px;
@@ -175,6 +170,7 @@ a {
   }
 }
 
+/* smallest images */
 @media all and (max-width: 440px) {
   .modalImg {
     height: 300px;
@@ -184,12 +180,6 @@ a {
   }
   .btn-modal {
     margin-left: 0px;
-  }
-}
-
-@media all and (min-width: 335px) and (max-width: 440px) {
-  .btn-modal {
-    margin-left: 10px;
   }
 }
 
