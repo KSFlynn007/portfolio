@@ -79,7 +79,8 @@ a {
   text-align: justify;
 }
 
-.bio {
+.bio,
+.tagline {
   display: block;
   margin-top: 20px;
 }
