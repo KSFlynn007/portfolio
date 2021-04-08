@@ -154,6 +154,18 @@ a {
   color: var(--accent-color);
 }
 
+.contact-text {
+  margin: 10px 30px;
+}
+
+.links-new {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .sources {
   text-align: end;
   padding: 20px;
