@@ -31,6 +31,13 @@ body {
   text-align: center;
 }
 
+.projects-subtitle {
+  font-family: var(--accent-font);
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 80%;
+}
+
 .btn {
   margin: 10px 0px;
   background: var(--black-color);
