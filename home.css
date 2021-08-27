@@ -106,6 +106,10 @@ a {
   margin: 100px 0px;
 }
 
+.project-directory {
+  text-align: center;
+}
+
 .portfolioItem-title {
   font-family: var(--accent-font);
 }
@@ -122,12 +126,12 @@ a {
   background-color: var(--light-color);
 }
 
-#project-link {
+.project-link {
   color: var(--black-color);
   margin-right: 5px;
 }
 
-#project-link:hover {
+.project-link:hover {
   color: var(--accent-color);
 }
 

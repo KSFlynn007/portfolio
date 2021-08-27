@@ -27,7 +27,8 @@
             <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
         </div>
     </div>
-    <div class="content"> 
+    <div class="content">
+        <!-- HEADER -->
         <nav class="navbar navbar-expand-md navbar-light fixed-top color-nav">
             <div class="container-fluid">
                 <a class="navbar-brand d-inline-block align-top" href="home.html">
@@ -84,15 +85,40 @@
 
 
     <!-- projects -->
-        <div id="projects">
+        <div id="projects" class="container">
             <h1 class="projects-title">Previous Projects</h1>
-            <h6 class="projects-subtitle">(Click on the titles to see the project on Github!)</h6>
+            <h6 class="projects-subtitle">What kind of work do you want to see?</h6>
+
+            <!-- new project directory -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-md d-flex justify-content-center project-container mx-3">
+                    <a href="portfolio/originals.html" class="project-link">
+                        <h2 class="portfolioItem-title">
+                            Originals
+                        </h2>
+                    </a>
+                </div>
+                <div class="col-md d-flex justify-content-center project-container mx-3">
+                    <a href="portfolio/mini-projects.html" class="project-link">
+                        <h2 class="portfolioItem-title">
+                            Mini Activities
+                        </h2>
+                    </a>
+                </div>
+                <div class="col-md d-flex justify-content-center project-container mx-3">
+                    <a href="portfolio/recreations.html" class="project-link">
+                        <h2 class="portfolioItem-title">
+                            Recreations (Coming Soon!)
+                        </h2>
+                    </a>
+                </div>
+            </div>
 
             <!-- PORTFOLIO -->
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/portfolio" target="_blank">Portfolio</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/portfolio" target="_blank">Portfolio</a>
 
                     </h2>
                 </div>
@@ -101,109 +127,11 @@
                 </div>
             </div>
 
-            <!-- OUT ON A LIMB -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/out-on-a-limb" target="_blank">Out On A Limb</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal"
-                        data-bs-target="#outOnALimb-modal">
-                        Preview
-                    </button>
-            
-                    <!-- Modal -->
-                    <div class="modal fade" id="outOnALimb-modal" tabindex="-1" aria-labelledby="outOnALimbModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="outOnALimbModalLabel">Out On A Limb</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/outOnALimb.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <p>Checklist of activities to step outside user's comfort zone. Vanilla JS, HTML & CSS only.</p>
-                </div>
-            </div>
-
-            <!-- DARKROOM -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/darkroom" target="_blank">DarkRoom</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal"
-                        data-bs-target="#darkRoom-modal">
-                        Preview
-                    </button>
-            
-                    <!-- Modal -->
-                    <div class="modal fade" id="darkRoom-modal" tabindex="-1" aria-labelledby="darkRoomModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="darkRoomModalLabel">DarkRoom</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/darkRoom.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <p>Image randomizer, built with Lorem Picsum, basic HTML, CSS.</p>
-                </div>
-            </div>
-
-            <!-- TO-DO LIST APP -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">To-Do List App</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#toDo-modal">
-                        Preview
-                    </button>
-            
-                    <!-- Modal -->
-                    <div class="modal fade" id="toDo-modal" tabindex="-1" aria-labelledby="toDoModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="toDoModalLabel">To Do List App</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/ToDoApp.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="col-sm">
-                    <p>A jQuery mini-project, used to display knowledge in JavaScript libraries.</p>
-                </div>
-            </div>
-
             <!-- PIANO-EXIT -->
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/piano-exit" target="_blank">Piano Portal</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/piano-exit" target="_blank">Piano Portal</a>
                     </h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#pianoPortal-modal">
@@ -236,7 +164,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/creature-hub" target="_blank">Creature Hub</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/creature-hub" target="_blank">Creature Hub</a>
                     </h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#creatureClub-modal" >
@@ -268,7 +196,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">SQL Case Study</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">SQL Case Study</a>
                     </h2>
 
                     <a href="/assets/caseStudies/SQLCaseStudy/sql-caseStudy.html" class="btn btn-light caseStudy" target="_self">
@@ -286,7 +214,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/movie_api" target="_blank">myFlix DB</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/movie_api" target="_blank">myFlix DB</a>
                     </h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlixDB-modal">
@@ -320,7 +248,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/myFlix-client" target="_blank">myFlix</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/myFlix-client" target="_blank">myFlix</a>
                     </h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlix-modal">
@@ -359,7 +287,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/meet-app" target="_blank">Code Club</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/meet-app" target="_blank">Code Club</a>
                     </h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#codeClub-modal">
@@ -394,7 +322,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/chatApp" target="_blank">ChatApp</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/chatApp" target="_blank">ChatApp</a>
                     </h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#chatApp-modal">
@@ -430,7 +358,7 @@
             <div class="row project-container">
                 <div class="col-sm">
                     <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/myFlix-Angular" target="_blank">myFlix Angular</a>
+                        <a class="project-link" href="https://github.com/KSFlynn007/myFlix-Angular" target="_blank">myFlix Angular</a>
                     </h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlixAngular-modal">
@@ -458,21 +386,6 @@
                         The app has various components, separated primarily between user view/actions and movie view/actions. myFlix Angular is styled with CSS 
                         and Angular Materials, supported with TypeDoc documentation, and hosted on gh-pages.
 
-                    </p>
-                </div>
-            </div>
-
-            <!-- NURSES LOVE DELIVERIES -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a id="project-link" href="https://github.com/KSFlynn007/First-Project" target="_blank">Nurses 💖 Deliveries</a>
-                    </h2>
-                </div>
-                <div class="col-sm">
-                    <p>First coding work, a mock up of a donation-based delivery service for healthcare workers.
-                        It's written in HTML, and inline CSS & Javascript. A nostalgia piece, like 
-                        having macaroni art on the fridge.
                     </p>
                 </div>
             </div>
