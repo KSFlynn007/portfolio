@@ -63,7 +63,7 @@
             </div>
         </nav>
 
-        <div id="about">
+        <div id="about" class="container-fluid">
                     <img src="assets/img/kelsey_selfie_square.jpg" alt="kelseyFlynn-portrait" class="profileImg mx-auto d-block" />
                     <h1 class="about-title">Hello all!</h1>
                     <p class="intro">
@@ -81,312 +81,36 @@
 
                     <a href="assets/files/KelseyFlynn-resume.pdf" class="btn btn-light resume-btn" target="_blank" download>Download my
                         Resume</a>
-            </div>
+        </div>
 
 
     <!-- projects -->
-        <div id="projects" class="container">
+        <div id="projects" class="container-fluid py-4">
             <h1 class="projects-title">Previous Projects</h1>
             <h6 class="projects-subtitle">What kind of work do you want to see?</h6>
 
             <!-- new project directory -->
             <div class="row d-flex justify-content-center">
-                <div class="col-md d-flex justify-content-center project-container mx-3">
+                <div class="col-md d-flex justify-content-center project-container mx-3 align-items-center">
                     <a href="portfolio/originals.html" class="project-link">
-                        <h2 class="portfolioItem-title">
+                        <h2 class="portfolioItem-title text-center">
                             Originals
                         </h2>
                     </a>
                 </div>
-                <div class="col-md d-flex justify-content-center project-container mx-3">
+                <div class="col-md d-flex justify-content-center project-container mx-3 align-items-center">
                     <a href="portfolio/mini-projects.html" class="project-link">
-                        <h2 class="portfolioItem-title">
+                        <h2 class="portfolioItem-title text-center">
                             Mini Activities
                         </h2>
                     </a>
                 </div>
-                <div class="col-md d-flex justify-content-center project-container mx-3">
+                <div class="col-md d-flex justify-content-center project-container mx-3 align-items-center">
                     <a href="portfolio/recreations.html" class="project-link">
-                        <h2 class="portfolioItem-title">
-                            Recreations (Coming Soon!)
+                        <h2 class="portfolioItem-title text-center">
+                            Recreations (Coming Soon)
                         </h2>
                     </a>
-                </div>
-            </div>
-
-            <!-- PORTFOLIO -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/portfolio" target="_blank">Portfolio</a>
-
-                    </h2>
-                </div>
-                <div class="col-sm">
-                    <p>Currently viewing; written in HTML and some JavaScript, with CSS and Bootstrap styling, hosted on Netlify.</p>
-                </div>
-            </div>
-
-            <!-- PIANO-EXIT -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/piano-exit" target="_blank">Piano Portal</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#pianoPortal-modal">
-                        Preview
-                    </button>
-            
-                    <!-- Modal -->
-                    <div class="modal fade" id="pianoPortal-modal" tabindex="-1" aria-labelledby="pianoPortalModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="pianoPortalModalLabel">Piano Portal</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/pianoPortal-long.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="col-sm">
-                    <p>Digital piano controlled by keypress events with a confirmation message that records how long user has been playing &
-                    auto-closes. Built with jQuery, sass & Bootstrap 5.</p>
-                </div>
-            </div>
-
-            <!-- CREATURE HUB -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/creature-hub" target="_blank">Creature Hub</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#creatureClub-modal" >
-                        Preview
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="creatureClub-modal" tabindex="-1" aria-labelledby="creatureClubModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="creatureClubModalLabel">Creature Hub</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/creatureHub.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <p>HTML & JavaScript application that uses an external API, to display a Pokédex collection. Styled with CSS & Bootstrap, utilizes polyfills
-                        and jQuery(slim).</p>
-                </div>
-            </div>
-
-            <!-- SQL CASE STUDY -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/To-Do-List-App" target="_blank">SQL Case Study</a>
-                    </h2>
-
-                    <a href="/assets/caseStudies/SQLCaseStudy/sql-caseStudy.html" class="btn btn-light caseStudy" target="_self">
-                        Case Study
-                    </a>
-                </div>
-            
-                <div class="col-sm">
-                    <p>A non-hosted project I built in GoormIDE to practice relational databases. I mocked up a simple version of Instagram
-                        relationships and make queries that would be relevant to an executive or marketing team in a real-life scenario.</p>
-                </div>
-            </div>
-
-            <!-- MYFLIX DB -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/movie_api" target="_blank">myFlix DB</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlixDB-modal">
-                        Preview
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="myFlixDB-modal" tabindex="-1" aria-labelledby="myFlixDBModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="myFlixDBModalLabel">myFlix DB</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/myFlix-DB.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <p>Server-Side NoSQL database created with MongoDB Atlas & Mongoose, with Node.js & Express architecture that performs CRUD on movies and user data
-                        through various endpoints. Security measures include authorization, JWT authentication and password hashing.
-                        Used JSDoc for additional documentation support, tested with Postman and hosted on Heroku.
-                    </p>
-                </div>
-            </div>
-
-            <!-- MYFLIX -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/myFlix-client" target="_blank">myFlix</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlix-modal">
-                        Preview
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="myFlix-modal" tabindex="-1" aria-labelledby="myFlixModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="myFlixModalLabel">myFlix</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/myFlix.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="/assets/caseStudies/myFlix-caseStudy/myFlix_caseStudy.html" class="btn btn-light caseStudy" target="_self">
-                        Case Study
-                    </a>
-
-                </div>
-                <div class="col-sm">
-                    <p>Client-side application for myFlixDB, a database application that displays movies, detailed info, and allows users to create their own account and 
-                        create and maintain a favorite movies list. myFlix was created with React & Redux with both class and functional components. Styling done
-                        with React Bootstrap and hosted on Netlify.
-                    </p>
-                </div>
-            </div>
-
-            <!-- CODE CLUB -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/meet-app" target="_blank">Code Club</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#codeClub-modal">
-                        Preview
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="codeClub-modal" tabindex="-1" aria-labelledby="codeClubModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="codeClubModalLabel">Code Club</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/codeClub.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-sm">
-                    <p>A Progressive Web Application, developed with TDD, built with React, run on AWS Lambda (serverless). Uses
-                        Google Calendar API and OAuth2 authentication flow to fetch upcominge events in a example event calendar. Code Club has alerts created with the OOP
-                        paradigm & uses Recharts for data visualization. Code Club is hosted on gh-pages and allows for limited offline use.
-                    </p>
-                </div>
-            </div>
-
-            <!-- CHATAPP -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/chatApp" target="_blank">ChatApp</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#chatApp-modal">
-                        Preview
-                    </button>
-            
-                    <!-- Modal -->
-                    <div class="modal fade" id="chatApp-modal" tabindex="-1" aria-labelledby="chatAppLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="codeClubModalLabel">ChatApp</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/chatApp.jpg" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            
-                </div>
-                <div class="col-sm">
-                    <p>A React Native app that provides a customizable chat interface and additional options for users to send images, take photos (saved on Google Firestore),
-                        and share their location. ChatApp uses anonymous authorization to login, was built and tested using Expo and Android Studio, and styled in accordance with 
-                        provided design assets and guidelines.
-                    </p>
-                </div>
-            </div>
-
-            <!-- MYFLIX ANGULAR -->
-            <div class="row project-container">
-                <div class="col-sm">
-                    <h2 class="portfolioItem-title">
-                        <a class="project-link" href="https://github.com/KSFlynn007/myFlix-Angular" target="_blank">myFlix Angular</a>
-                    </h2>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light btn-modal" data-bs-toggle="modal" data-bs-target="#myFlixAngular-modal">
-                        Preview
-                    </button>
-            
-                    <!-- Modal -->
-                    <div class="modal fade" id="myFlixAngular-modal" tabindex="-1" aria-labelledby="chatAppLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="codeClubModalLabel">myFlix Angular</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/modal-Img/myFlixAngular.png" alt="modalPreview-img" class="modalImg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            
-                </div>
-                <div class="col-sm">
-                    <p>myFlix Angular is an alternative version of myFlix, a client-side application based on myFlix DB, but built with Angular & TypeScript.
-                        The app has various components, separated primarily between user view/actions and movie view/actions. myFlix Angular is styled with CSS 
-                        and Angular Materials, supported with TypeDoc documentation, and hosted on gh-pages.
-
-                    </p>
                 </div>
             </div>
         </div>
