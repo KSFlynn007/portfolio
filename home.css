@@ -107,10 +107,6 @@ a {
   background-color: var(--light-color);
 }
 
-.project-directory {
-  text-align: center;
-}
-
 .portfolioItem-title {
   font-family: var(--accent-font);
 }
