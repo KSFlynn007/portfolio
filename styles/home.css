@@ -14,6 +14,13 @@ body {
   color: var(--black-color);
 }
 
+#about,
+#roadmap,
+#projects,
+#contact {
+  background-color: var(--light-color);
+}
+
 .about-title,
 .roadmap-title,
 .projects-title,
@@ -24,7 +31,7 @@ body {
 
 .projects-subtitle {
   font-family: var(--accent-font);
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   opacity: 80%;
 }
 
@@ -35,7 +42,7 @@ body {
   font-family: var(--accent-font);
   font-size: 18px;
   transition: all 0.3s ease;
-  border: 1px solid var(--black-color);
+  border: 3px solid var(--accent-color);
 }
 
 .btn:hover {
@@ -61,11 +68,6 @@ a {
 }
 
 /* about */
-#about,
-#projects,
-#contact {
-  background-color: var(--light-color);
-}
 
 .profileImg {
   width: 30%;
@@ -86,6 +88,12 @@ a {
 
 .resume-btn {
   margin-top: 40px;
+}
+
+/* roadmap specific */
+.roadmap-title {
+  margin-bottom: 0px;
+  padding-top: 7px;
 }
 
 /* projects */

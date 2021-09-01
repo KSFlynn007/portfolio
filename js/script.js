@@ -6,6 +6,8 @@ $(window).on('load', function() {
 let roadmap = $('.roadmap-content');
 let roadmapButton = $('.toggle-roadmap');
 
+roadmap.hide();
+
 roadmapButton.click(function() {
     roadmap.toggle();
 })
