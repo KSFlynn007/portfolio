@@ -67,6 +67,10 @@ a {
   background-color: var(--white-color);
 }
 
+.navbar-nav {
+  margin-top: 15px;
+}
+
 /* about */
 
 .profileImg {
@@ -156,7 +160,12 @@ a {
   font-size: 10px;
 }
 
-/* bio text */
+@media all and (min-width: 991px) {
+  .navbar-nav {
+    margin-top: 7px;
+  }
+}
+
 @media all and (max-width: 768px) {
   .intro {
     margin: 0px;
