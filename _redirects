@@ -1,0 +1,10 @@
+# for root
+/*              /home.html     200
+​
+# for the rest
+/portfolio/originals/*        /portfolio/originals.html     200
+/portfolio/mini-projects/*      /portfolio/mini-projects.html   200
+
+## need to add in recreations link when active
+
+/

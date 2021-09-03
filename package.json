@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "I used Bootstrap for this portfolio website, as I knew that my portfolio will likely grow and change rapidly in a year, I wanted styling that could change quickly and responsively to new content inserted.",
+  "main": "home.html",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --out-dir prod"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSFlynn007/portfolio.git"
+  },
+  "author": "Kelsey Flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSFlynn007/portfolio/issues"
+  },
+  "homepage": "https://github.com/KSFlynn007/portfolio#readme"
+}
