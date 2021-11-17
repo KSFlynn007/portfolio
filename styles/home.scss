@@ -15,7 +15,7 @@ body{
     width: 70%;
 }
 
-#section{
+.section{
     background-color: $lightColor;
     border: 5px solid $accentColor;
     margin-bottom: 1.5em;
@@ -25,11 +25,7 @@ body{
 .section-title {
     font-family: $accentFont;
     font-size: 2.5em;
-}
-
-.projects-subtitle{
-    font-family: $accentFont;
-    margin-bottom: 1em;
+    margin: 0;
 }
 
 .btn{
@@ -50,7 +46,6 @@ body{
 a{
     text-decoration: none;
     color: $blackColor;
-    padding: 1em;
 }
 
 // nav
@@ -75,9 +70,17 @@ a.nav-link{
     align-items: center;
     justify-content: center;
 }
+
+.quick-connect > * {
+    margin-right: 1em;
+}
 // nav end
 
 // about
+#about > h1 {
+    margin: 0.5em 0;
+}
+
 .profileImg{
     max-width: 40%;
     border-radius: 50%;
@@ -87,7 +90,7 @@ a.nav-link{
 .intro{
     margin: 0 auto 1em auto;
     text-align: justify;
-    max-width: 60em;
+    max-width: 80%;
 }
 
 .bio,
@@ -103,7 +106,7 @@ a.nav-link{
 // about end
 
 // roadmap
-.roadmap-section > h1{
+#roadmap > h1{
     margin: 0.2em 0 0.5em 0;
 }
 
@@ -112,3 +115,163 @@ a.nav-link{
     border: 5px solid $accentColor;
     margin: 1rem 0;
 }
+
+// roadmap end
+
+// projects
+.portfolioItem-title{
+    font-family: $accentFont;
+}
+
+.projects-title{
+    color: $lightColor;
+    font-family: $accentFont;
+}
+
+.projects-subtitle {
+    font-family: $accentFont;
+    margin-bottom: 1em;
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0.5rem;
+    padding: 1em;
+}
+
+.project-subcontainer {
+    border: 3px solid $accentColor;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.project-link:hover{
+    color: $accentColor;
+}
+
+.modal-body{
+    margin: 0 auto;
+}
+
+.modalImg{
+    display: block;
+    height: 30rem;
+}
+// projects end
+
+// contact
+.contact-me_phone,
+.contact-me_email{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em;
+    max-width: 50%;
+    margin: auto;
+}
+
+.contact-me_phone:hover,
+.contact-me_email:hover {
+    color: $accentColor;
+}
+
+.contact-text{
+    margin: 1em;
+}
+
+.sources{
+    text-align: end;
+    color: $lightColor;
+    margin-bottom: 0.8em;
+    font-size: 0.6em;
+}
+
+.sources > div > a{
+    color: $lightColor;
+}
+// contact end
+
+// specific projects page
+.projectsPage-title,
+.projectsPage-subtitle{
+    color: $lightColor;
+    font-family: $accentFont;
+    text-align: left;
+}
+
+.project-container{
+    border: 1px solid $lightColor;
+    background: $lightColor;
+    border: 5px solid $accentColor;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+@media all and (max-width: 1200px) {
+    .project-subcontainer{
+        margin: 0 0.5em;
+    }
+    .portfolioItem-title{
+        font-size: 2em;
+    }
+}
+
+@media all and (max-width: 991px){
+    .navbar-nav{
+        margin-top: 0.5em;
+    }
+}
+
+@media all and (max-width: 768px){
+    body {
+        width: 90%;
+    }
+
+    .quick-connect{
+        justify-content: initial;
+    }
+
+    .timeline-img {
+        max-width: 80%;
+    }
+}
+
+@media all and (max-width: 630px) {
+    .project{
+        flex-direction: column;
+    }
+
+    .project-subcontainer{
+        margin: 0.5em 0;
+        min-width: 80%;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .profileImg {
+        max-width: 50%;
+    }
+
+    .timeline-img {
+        max-width: 90%;
+    }
+
+    .contact-me_phone,
+    .contact-me_email {
+        max-width: 100%;
+    }
+
+}
+
+@media all and (max-width: 580px) and (min-width: 360px) {
+    #roadmap>h1 {
+        margin: 0.2em 1em 0.5em 1em;
+    }
+}
+
+// .content {
+//     display: none;
+// }

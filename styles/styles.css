@@ -8,7 +8,7 @@ body {
   width: 70%;
 }
 
-#section {
+.section {
   background-color: #f2fafa;
   border: 5px solid #0A907F;
   margin-bottom: 1.5em;
@@ -18,11 +18,7 @@ body {
 .section-title {
   font-family: "Playfair Display", serif;
   font-size: 2.5em;
-}
-
-.projects-subtitle {
-  font-family: "Playfair Display", serif;
-  margin-bottom: 1em;
+  margin: 0;
 }
 
 .btn {
@@ -43,7 +39,6 @@ body {
 a {
   text-decoration: none;
   color: #021f1b;
-  padding: 1em;
 }
 
 .navbar-brand {
@@ -68,6 +63,14 @@ a.nav-link {
   justify-content: center;
 }
 
+.quick-connect > * {
+  margin-right: 1em;
+}
+
+#about > h1 {
+  margin: 0.5em 0;
+}
+
 .profileImg {
   max-width: 40%;
   border-radius: 50%;
@@ -77,7 +80,7 @@ a.nav-link {
 .intro {
   margin: 0 auto 1em auto;
   text-align: justify;
-  max-width: 60em;
+  max-width: 80%;
 }
 
 .bio,
@@ -91,7 +94,7 @@ a.nav-link {
   margin: 0.7rem;
 }
 
-.roadmap-section > h1 {
+#roadmap > h1 {
   margin: 0.2em 0 0.5em 0;
 }
 
@@ -99,6 +102,150 @@ a.nav-link {
   max-width: 60%;
   border: 5px solid #0A907F;
   margin: 1rem 0;
+}
+
+.portfolioItem-title {
+  font-family: "Playfair Display", serif;
+}
+
+.projects-title {
+  color: #f2fafa;
+  font-family: "Playfair Display", serif;
+}
+
+.projects-subtitle {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1em;
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0.5rem;
+  padding: 1em;
+}
+
+.project-subcontainer {
+  border: 3px solid #0A907F;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.project-link:hover {
+  color: #0A907F;
+}
+
+.modal-body {
+  margin: 0 auto;
+}
+
+.modalImg {
+  display: block;
+  height: 30rem;
+}
+
+.contact-me_phone,
+.contact-me_email {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.5em;
+  max-width: 50%;
+  margin: auto;
+}
+
+.contact-me_phone:hover,
+.contact-me_email:hover {
+  color: #0A907F;
+}
+
+.contact-text {
+  margin: 1em;
+}
+
+.sources {
+  text-align: end;
+  color: #f2fafa;
+  margin-bottom: 0.8em;
+  font-size: 0.6em;
+}
+
+.sources > div > a {
+  color: #f2fafa;
+}
+
+.projectsPage-title,
+.projectsPage-subtitle {
+  color: #f2fafa;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+}
+
+.project-container {
+  border: 1px solid #f2fafa;
+  background: #f2fafa;
+  border: 5px solid #0A907F;
+  text-align: left;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+@media all and (max-width: 1200px) {
+  .project-subcontainer {
+    margin: 0 0.5em;
+  }
+
+  .portfolioItem-title {
+    font-size: 2em;
+  }
+}
+@media all and (max-width: 991px) {
+  .navbar-nav {
+    margin-top: 0.5em;
+  }
+}
+@media all and (max-width: 768px) {
+  body {
+    width: 90%;
+  }
+
+  .quick-connect {
+    justify-content: initial;
+  }
+
+  .timeline-img {
+    max-width: 80%;
+  }
+}
+@media all and (max-width: 630px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project-subcontainer {
+    margin: 0.5em 0;
+    min-width: 80%;
+  }
+}
+@media all and (max-width: 580px) {
+  .profileImg {
+    max-width: 50%;
+  }
+
+  .timeline-img {
+    max-width: 90%;
+  }
+
+  .contact-me_phone,
+.contact-me_email {
+    max-width: 100%;
+  }
+}
+@media all and (max-width: 580px) and (min-width: 360px) {
+  #roadmap > h1 {
+    margin: 0.2em 1em 0.5em 1em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
