@@ -241,10 +241,19 @@ a.nav-link {
 .contact-me_email {
     max-width: 100%;
   }
+
+  .modalImg {
+    height: 25rem;
+  }
 }
 @media all and (max-width: 580px) and (min-width: 360px) {
   #roadmap > h1 {
     margin: 0.2em 1em 0.5em 1em;
+  }
+}
+@media all and (max-width: 360px) {
+  .modalImg {
+    height: 20rem;
   }
 }
 
