@@ -275,9 +275,10 @@ a.nav-link{
     }
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 400px) {
     .modalImg {
         height: 20rem;
+        max-width: 100%;
     }
 }
 
