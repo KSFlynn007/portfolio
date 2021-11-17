@@ -9,18 +9,12 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- roadmap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="/styles/home.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
 </head>
 
 <body>
@@ -35,8 +29,7 @@
         <nav class="navbar navbar-expand-md navbar-light fixed-top color-nav">
             <div class="container-fluid">
                 <a class="navbar-brand d-inline-block align-top" href="/">
-                    <img src="assets/img/racoon_favicon.svg" alt='racoon-logo' width="30" height="24"
-                        class="d-inline-block">
+                    <img src="assets/img/racoon_favicon.svg" alt='racoon-logo' width="30" height="30" class="d-inline-block">
                     Kelsey Flynn
                     </img>
                 </a>
@@ -54,30 +47,25 @@
                         </li>
                     </ul>
                     <!-- quick connect navbar -->
-                    <div class="d-flex quick-connect">
+                    <div class="quick-connect">
                         <a class="github nav-link" href="https://github.com/KSFlynn007" target="_blank">
-                            <img src="/assets/img/github_icon.svg" width="30" height="30" alt="Github Logo" />
+                            <img src="/assets/img/github_icon.svg" width="100" height="30" alt="Github Logo"/>
                         </a>
                         <a class="LinkedIn nav-link" href="https://www.linkedin.com/in/kelseysflynn/" target="_blank">
-                            <img src="assets/img/linkedIn_icon.svg" width="30" height="30" alt="LinkedIn Logo" />
+                            <img src="assets/img/linkedIn_icon.svg" width="100" height="30" alt="LinkedIn Logo" />
                         </a>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <div id="about" class="container-fluid text-center py-3">
-            <img src="assets/img/kelsey_selfie_square.jpg" alt="kelseyFlynn-portrait" class="profileImg mx-auto d-block" />
-            <h1 class="about-title">Hello all!</h1>
+        <div id="section">
+            <img src="assets/img/kelsey_selfie_square.jpg" alt="kelseyFlynn-portrait" class="profileImg" />
+            <h1 class="section-title">Hello all!</h1>
             <p class="intro">
-                My name is Kelsey, and I'm a Web Developer from Alberta, Canada. I continuously seek to be a "Jack-of-all-trades",
-                pulling bits of expertise from other fields, always searching for a new skill to learn. I spend my free time scavenging through thrift stores for hidden gems, which often draws
-                a raccoon comparison from people who know me! I tend to be the person who spends time going through things people think are trash, and finding the little gems to fix up.
-                This is, at its core, why I enjoy web development, because this field is often going through code to find the one piece that will make a project perfect.
+                My name is Kelsey, and I'm a Web Developer from Alberta, Canada. I continuously seek to be a "Jack-of-all-trades", pulling bits of expertise from other fields, always searching for a new skill to learn. I spend my free time scavenging through thrift stores for hidden gems, which often draws a raccoon comparison from people who know me! I tend to be the person who spends time going through things people think are trash, and finding the little gems to fix up. This is, at its core, why I enjoy web development, because this field is often going through code to find the one piece that will make a project perfect.
 
-                <span class="bio">Outside of Web Development, I have a Bachelor's degree in Linguistics & Business, which I've used to teach remedial education in
-                    person at home in Alberta, privately in France and remotely in China. I've also done some time in the corporate world, in HR & Compliance working with
-                    provincial and municipal agencies. </span>
+                <span class="bio">Outside of Web Development, I have a Bachelor's degree in Linguistics & Business, which I've used to teach remedial education in person at home in Alberta, privately in France and remotely in China. I've also done some time in the corporate world, in HR & Compliance working with provincial and municipal agencies. </span>
                     
                 <span class="tagline">Thinking outside the norm, working within the system and organizing the chaos in the difference is what I thrive on.</span>
             </p>
@@ -88,46 +76,46 @@
         </div>
 
     <!-- roadmap -->
-        <div id="roadmap" class="container-fluid text-center">
-            <h1 class="roadmap-title text-center">Roadmap</h1>
-            <button class="toggle-roadmap btn btn-dark">A Development Journey</button>
+        <div id="section" class="roadmap-section container-fluid">
+            <h1 class="section-title">Development Journey Roadmap</h1>
+            <button class="toggle-roadmap btn btn-dark">Open</button>
             <div class="roadmap-content">
-                <img src="/assets/img/roadmap.png" alt="timeline" class="img-fluid timeline-img">
+                <img src="/assets/img/roadmap.png" alt="timeline" class="timeline-img">
             </div>
             <div id="portfolio"></div>
         </div>
         
     <!-- projects -->
-        <div id="projects" class="container-fluid text-center pb-2">
-            <h1 class="projects-title pt-2">Portfolio</h1>
+        <div id="section" class="container-fluid">
+            <h1 class="section-title pt-2">Portfolio</h1>
             <h6 class="projects-subtitle">What kind of work do you want to see?</h6>
 
             <!-- new project directory -->
             <div class="row d-flex justify-content-center mx-4">
                 <div class="col-md d-flex justify-content-center project-container mx-3 align-items-center">
                     <a href="portfolio/originals/" class="project-link">
-                        <h2 class="portfolioItem-title text-center">
+                        <h2 class="portfolioItem-title">
                             Original Projects
                         </h2>
                     </a>
                 </div>
                 <div class="col-md d-flex justify-content-center project-container mx-3 align-items-center">
                     <a href="portfolio/mini-projects/" class="project-link">
-                        <h2 class="portfolioItem-title text-center">
+                        <h2 class="portfolioItem-title">
                             Mini Projects
                         </h2>
                     </a>
                 </div>
                 <div class="col-md d-flex justify-content-center project-container mx-3 align-items-center">
                     <a href="portfolio/freelance/" class="project-link">
-                        <h2 class="portfolioItem-title text-center project-link">
+                        <h2 class="portfolioItem-title project-link">
                             Freelance Work
                         </h2>
                     </a>
                 </div>
                 <div class="col-md d-flex justify-content-center project-container mx-3 align-items-center">
                     <a href="#" class="project-link">
-                        <h2 class="portfolioItem-title text-center project-link">
+                        <h2 class="portfolioItem-title project-link">
                             Recreations (Coming Soon)
                         </h2>
                     </a>
@@ -137,8 +125,8 @@
 
 
     <!-- contact -->
-    <div id="contact" class="text-center pb-2">
-                <h1 class="contact-title pt-2">Contact Me</h1>
+    <div id="section">
+                <h1 class="section-title pt-2">Contact Me</h1>
                 <p> I can be reached via email or phone/text, I respond within 24-48 hours:</p>
                 <a class="contact-me_email" href="mailto:kelseyflynn@gmail.com">kelseyflynnn@gmail.com</a>
                 <a class="contact-me_phone" href="tel:+1403-808-2573" aria-label="Call/text me at:">+1. 403. 808. 2573.</a>

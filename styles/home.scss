@@ -1,0 +1,114 @@
+$accentColor: #0A907F;
+$blackColor: #021f1b;
+$lightColor: #f2fafa;
+$accentFont: "Playfair Display", serif;
+$baseFont: "Lato", sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: $baseFont;
+    color: $blackColor;
+    background-color: $blackColor;
+    margin: 6em auto 0em auto;
+    text-align: center;
+    width: 70%;
+}
+
+#section{
+    background-color: $lightColor;
+    border: 5px solid $accentColor;
+    margin-bottom: 1.5em;
+    padding: 1rem 0;
+}
+
+.section-title {
+    font-family: $accentFont;
+    font-size: 2.5em;
+}
+
+.projects-subtitle{
+    font-family: $accentFont;
+    margin-bottom: 1em;
+}
+
+.btn{
+    background: $blackColor;
+    color: $lightColor;
+    font-family: $accentFont;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: 3px solid $accentColor;
+}
+
+.btn:hover{
+    background-color: $accentColor;
+    border: 3px solid $blackColor;
+    color: $lightColor;
+}
+
+a{
+    text-decoration: none;
+    color: $blackColor;
+    padding: 1em;
+}
+
+// nav
+.navbar-brand{
+    font-family: $accentFont;
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+
+.color-nav{
+    background-color: $lightColor;
+}
+
+a.nav-link{
+    text-align: left;
+    padding: 0;
+}
+
+.quick-connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// nav end
+
+// about
+.profileImg{
+    max-width: 40%;
+    border-radius: 50%;
+    border: 5px solid $accentColor;
+}
+
+.intro{
+    margin: 0 auto 1em auto;
+    text-align: justify;
+    max-width: 60em;
+}
+
+.bio,
+.tagline{
+    display: block;
+    margin-top: 1em;
+}
+
+.resume-btn{
+    padding: 0.7rem;
+    margin: 0.7rem;
+}
+// about end
+
+// roadmap
+.roadmap-section > h1{
+    margin: 0.2em 0 0.5em 0;
+}
+
+.timeline-img{
+    max-width: 60%;
+    border: 5px solid $accentColor;
+    margin: 1rem 0;
+}

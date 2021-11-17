@@ -10,4 +10,15 @@ roadmap.hide();
 
 roadmapButton.click(function() {
     roadmap.toggle();
+
+    nameToggle();
 })
+
+
+function nameToggle(){
+    if(roadmapButton.html() == "Open"){
+        roadmapButton.html("Close");
+    } else {
+        roadmapButton.html("Open");
+    }
+}
