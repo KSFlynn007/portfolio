@@ -2,10 +2,6 @@
 /*              /home.html     200
 ​
 # for the rest
-/portfolio/originals/*          /portfolio/originals.html     200
-/portfolio/mini-projects/*      /portfolio/mini-projects.html   200
+/portfolio/studentWork/*          /portfolio/studentWork.html     200
+/portfolio/personalProjects/*      /portfolio/personalProjects.html   200
 /portfolio/freelance/*          /portfolio/freelance.html 200
-
-## need to add in recreations link when active
-
-/
