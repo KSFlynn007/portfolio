@@ -10,5 +10,5 @@ I also went with a primarily single-page look, as I wanted a user to get the inf
 
 Hosted on Netlify, which has been my preferred free hosting platform, with the auto-deploy taking updates directly from Github.
 
-## Previous Version
+## First Version
 https://github.com/KSFlynn007/old-portfolio-website
