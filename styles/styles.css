@@ -145,6 +145,11 @@ a.nav-link {
   height: 30rem;
 }
 
+/* something odd going on with this .png no matter the adjustments in raw file */
+#crypto-img{
+  width: 100%;
+}
+
 .contact-me_phone,
 .contact-me_email {
   display: block;
