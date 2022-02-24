@@ -105,19 +105,6 @@ a.nav-link{
 }
 // about end
 
-// roadmap
-#roadmap > h1{
-    margin: 0.2em 0 0.5em 0;
-}
-
-.timeline-img{
-    max-width: 60%;
-    border: 5px solid $accentColor;
-    margin: 1rem 0;
-}
-
-// roadmap end
-
 // projects
 .portfolioItem-title{
     font-family: $accentFont;
@@ -270,12 +257,6 @@ a.nav-link{
 
     .modalImg {
         height: 25rem;
-    }
-}
-
-@media all and (max-width: 580px) and (min-width: 360px) {
-    #roadmap>h1 {
-        margin: 0.2em 1em 0.5em 1em;
     }
 }
 
