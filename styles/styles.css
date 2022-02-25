@@ -8,6 +8,11 @@ body {
   width: 70%;
 }
 
+.loader {
+  color: #f2fafa;
+  font-size: 1.2em;
+}
+
 .section {
   background-color: #f2fafa;
   border: 5px solid #0A907F;
@@ -94,11 +99,23 @@ a.nav-link {
   margin: 0.7rem;
 }
 
+.unselected {
+  display: none;
+}
 
-.timeline-img {
-  max-width: 60%;
+.category {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category > * {
+  border: 3px solid #0A907F;
+  padding: 1rem;
+}
+
+.category > *:hover {
+  cursor: pointer;
   border: 5px solid #0A907F;
-  margin: 1rem 0;
 }
 
 .portfolioItem-title {
@@ -117,7 +134,7 @@ a.nav-link {
 
 .project {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 0 0.5rem;
   padding: 1em;
@@ -127,6 +144,10 @@ a.nav-link {
   border: 3px solid #0A907F;
   justify-content: center;
   padding: 1rem;
+}
+
+.project-subcontainer:first-of-type {
+  margin-right: 1em;
 }
 
 .project-link:hover {
@@ -142,9 +163,12 @@ a.nav-link {
   height: 30rem;
 }
 
-/* something odd going on with this .png no matter the adjustments in raw file */
-#crypto-img{
-  width: 100%;
+.slideshow {
+  border: 3px solid #f2fafa;
+}
+
+.casestudy-btn {
+  margin: 1em;
 }
 
 .contact-me_phone,
@@ -252,7 +276,12 @@ a.nav-link {
     height: 25rem;
   }
 }
-
+@media all and (max-width: 425px) {
+  .category {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media all and (max-width: 400px) {
   .modalImg {
     height: 20rem;
