@@ -2,27 +2,15 @@
 <html lang="en">
 <head>
     <title>Kelsey Flynn | myFlix Case Study</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="img/x-icon" href="/assets/img/racoon_favicon.svg" />
-    
-    <!-- bootstrap -->    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="img/x-icon" href="../assets/img/racoon_favicon.svg" />
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="caseStudy.css">
-
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
 </head>
 <body>
 <div class="loader">
@@ -41,7 +29,9 @@
                 </img>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,7 +42,7 @@
                     </li>
                 </ul>
                 <!-- quick connect navbar -->
-                <div class="d-flex quick-connect">
+                <div class="quick-connect">
                     <a class="github nav-link" href="https://github.com/KSFlynn007" target="_blank">
                         <img src="../../img/github_icon.svg" width="30" height="30" alt="Github Logo" />
                     </a>
@@ -64,8 +54,8 @@
         </div>
     </nav>
     <div class="container">
-        <h1>myFlix Case Study</h1>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <h1 class="projectsPage-title">myFlix Case Study</h1>
+        <div id="carouselExampleIndicators" class="carousel slide slideshow" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -141,7 +131,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <a href="/assets/files/myFlix-caseStudy-full.pdf" class="btn btn-light" target="_blank" download>Want to have your own copy?</a>
+        <a href="/assets/files/myFlix-caseStudy-full.pdf" class="btn btn-light casestudy-btn" target="_blank" download>Want to have your own copy?</a>
     </div>
 </div>
 
